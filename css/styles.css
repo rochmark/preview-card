@@ -1,0 +1,94 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  padding: 10% 0;
+}
+
+button {
+margin-top: 25%;
+color: hsl(0, 0%, 95%);
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-sedans:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: #fff;
+  outline-color: #fff;
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-suvs:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: #fff;
+  outline-color: #fff;
+}
+
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-luxury:hover {
+background-color: hsl(179, 100%, 13%);
+  color: #fff;
+  outline-color: #fff;
+}
+
+.car-text {
+  padding: 7% 5%;
+}
+
+.car-box {
+  text-align: left;
+  padding: 10% 15%;
+  border-radius: 25px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.suvs {
+background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+
+@media (max-width: 767px){
+  .sedans {
+    border-top-right-radius: 3%;
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+
+  }
+ .luxury {
+   border-bottom-left-radius: 3%;
+   border-bottom-right-radius: 3%;
+   border-top-right-radius: 0;
+   border-top-left-radius: 0;
+ }
+}
